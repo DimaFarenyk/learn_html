@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Разные задания</title>
+  <link rel="stylesheet" href="Learn.css">
+  <body>
+    <h1>Профиль</h1>
+    Ваш пол:
+    <br>
+    <label for="">
+      <input type="radio" name="gander" value="m">Мужской
+    </label>
+    <label for="">
+      <input type="radio" name="gander" value="w" checked>Женский
+    </label>
+    <br>
+    <br>
+    Месяць и год рождения:
+    <br>
+    <select name="month">
+      <option value="Январь">Январь</option>
+      <option value="Февраль">Февраль</option>
+      <option value="Март">Март</option>
+    </select>
+    <select name="year" id="">
+      <option value="2000">2000</option>
+      <option value="2001">2001</option>
+      <option value="2002">2002</option>
+    </select>
+    <br>
+    <br>
+    <div class="color">Знакомые технологии:</div> 
+    <br>
+    <select name="techs" multiple size="4">
+      <option value="CSS">CSS</option>
+      <option value="HTML" selected>HTML</option>
+      <option value="JS">JS</option>
+      <option value="Node.js">Node.js</option>
+    </select>
+    <br>
+    <br>
+    Фото:
+    <input type="file" name="Choose File">
+    <br>
+    <br>
+    <input type="submit" name="Сохранить"> 
+    <br>
+    <br>
+    <br>
+    <h1>ТАБЛИЦА</h1>
+    <table>
+      <caption>Посещение по городам</caption>
+      <tr>
+      <th>Город</th>
+      <th>Посещения</th>
+      <th>Страниц</th>
+      <th>Время</th>
+    </tr>
+    <tr>
+      <td>СПБ</td>
+      <td>199</td>
+      <td>18</td>
+      <td>00:13:45</td>
+    </tr>
+    <tr>
+      <td>Москва</td>
+      <td>69</td>
+      <td rowspan="2">нет данных</td>
+      <td>00:00:44</td>
+    </tr>
+    <tr>
+      <td>Киев</td>
+      <td>5</td>
+      <td>00:18:07</td>
+    </tr>
+    <tr>
+      <td colspan="3">Всего</td>
+      <td>273</td>
+    </tr>
+
+    </table>
+    
+  
+
+  </body>
+</head>

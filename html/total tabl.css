@@ -1,0 +1,63 @@
+﻿body{
+  width:500px; 
+  padding: 10px;
+}
+td{
+border-bottom:1px solid lightslategray;
+padding:15px;
+width: 50%;
+}
+table{
+  border-collapse: collapse;
+}
+th{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: rgb(33, 250, 4);
+  padding: 10px;
+  color: blue;
+}
+.col-1{
+  background-color: rgb(5, 118, 211);
+}
+.col-2{
+  background-color: yellow;
+}
+.col-3{
+  text-align: left;
+}
+.col-4{
+  text-align: center;
+}
+.col-5{
+  text-align: right;
+}
+h1{
+  text-align: center;
+}
+h2{
+  background-color: rgb(250, 9, 238);
+  text-align: center;
+}
+p{
+  background-color: cyan;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 6px 6px 6px #cccccc;
+}
+.two{
+  color: red;
+  background-color: blue;
+}
+tr:hover{
+  background-color: crimson;
+}
+td:hover{
+  background-color: cyan;
+}
+em{
+  display: none;
+}
+tr:hover em{
+  display: inline;
+}

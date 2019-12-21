@@ -1,0 +1,47 @@
+﻿body{
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+}
+th,td{
+    padding: 10px
+}
+td{
+    border-bottom: 1px solid lightgrey;
+}
+th{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    width: 33%
+
+    color: white;
+}
+table{
+    border-collapse: collapse;
+}
+.col-1{
+    text-align: :left;
+    
+}
+.col-2{
+    text-align:center;
+}
+.col-3{
+    text-align: right;
+}
+.row-heading{
+    background-color: darkcyan;
+}
+.row-highlight{
+    background-color:lightyellow;
+}
+.cell-highlight{
+    background-color: lightblue
+}
+h2{
+    font-size: 20px;
+    line-height: normal;
+}

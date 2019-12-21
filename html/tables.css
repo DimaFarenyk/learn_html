@@ -1,0 +1,33 @@
+﻿.row-1 {
+  background-color: pink;
+  }
+  
+  .row-2 {
+  background-color: lightgreen;
+  }
+  
+  .row-3 {
+  background-color: lightblue
+  }
+table {
+ border-collapse: collapse;
+  width: 40%;
+  height: 250px;
+}
+td{
+
+
+  border: 1px solid lightgrey;
+  padding: 10px
+}
+th{
+  
+ background-color: blueviolet;
+  border-bottom: 2px solid black;
+  padding: 10px
+
+}
+caption{
+  caption-side: bottom;
+  
+}

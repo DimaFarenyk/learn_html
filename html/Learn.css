@@ -1,0 +1,26 @@
+﻿h1{
+  color: blue;
+}
+body{
+  padding: 20px;
+}
+.color{
+  background-color:yellowgreen;
+  width: 50%;
+}
+td{
+  border: 2px solid lightseagreen;
+  background-color:yellow;
+  color: red;
+}
+table{
+  border-collapse: collapse;
+  text-align: center;
+}
+th{
+  border-bottom: black;
+  background-color: lightcyan;
+}
+caption{
+  caption-side: bottom;
+}

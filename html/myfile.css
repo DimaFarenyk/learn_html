@@ -1,0 +1,35 @@
+﻿p{
+    font-weight: 300;
+}
+.page-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+   
+    text-align: center;
+}
+del{
+    color: brown;
+}
+ins{
+    color: rgb(5, 185, 65);
+}
+.partnership{
+    color: #ffffff;
+  background-color: #4a87fa;
+  background-image: url("img/bg-partnership.svg");
+  padding:30px;
+  margin:30px 0;
+  text-align:center;
+}
+h1{
+    text-transform: capitalize;
+}
+.partnership{
+    text-transform: uppercase;
+}
+footer{
+    border-top: 1px solid #aaa;
+    padding-top:10px;
+    font-style: italic; 
+}

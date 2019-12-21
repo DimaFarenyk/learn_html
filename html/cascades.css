@@ -1,0 +1,20 @@
+﻿h1 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  .skills dd {
+    background-color: #e8e8e8;
+    margin: 0;
+    margin-bottom: 10px;
+
+  }
+  .skills-level{
+      font-size: 12px;
+      text-align: center;
+      color:  #ffffff;
+      background-color: #4470c4;
+
+  }
+  .skills-level-ok{
+      background-color: rgb(57, 223, 7);
+  }
